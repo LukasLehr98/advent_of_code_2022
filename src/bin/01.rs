@@ -13,4 +13,3 @@ fn main(){
     let solution : (u32, u32) = (solve[0], solve[0..3].iter().sum());
     println!("Day 1: Part 1: {}, Part 2: {}", solution.0, solution.1);
 }
-
