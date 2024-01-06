@@ -2,8 +2,6 @@ use advent_of_code_2022::read_file_input;
 
 fn main(){
     let file = read_file_input("07.txt");
-
-    println!("Total size of small dirs: {}", sizes);
 }
 
 fn make_file_tree(input: &str) -> Directory{
